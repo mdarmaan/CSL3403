@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="para">
+    Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule and in turn to inspire movements for civil rights and freedom across the world. 
+   </p>
+   <button  onclick="changeColor()">ChangeColor</button>
+ 
+</body>
+</html>
+<script>
+  let a=5;        // global scope variable
+
+
+
+
+   function changeColor(){
+     let a=8;        /// local scope variable
+    let p=document.getElementById('para');
+    if(a==5)
+     p.style.color="red";
+     else{
+    p.style.color="blue";  
+   }
+
+
+   }
+
+  
+  
+</script>
