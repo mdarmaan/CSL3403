@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS Assignment </h1>
+    <h2> Object in javascript</h2>
+    
+</body>
+
+<script>
+
+    var Person1={
+        FirstName:"MD",
+        LastName:"Armaan",
+        "Office Address":"Muzaffarpur Bihar "
+    }
+       console.log(Person1);
+     
+
+      function person(FirstName,LastName,OfficeAdress){
+             this.FirstName=FirstName;
+             this.LastName=LastName;
+             this.OfficeAdress=OfficeAdress;
+      }
+
+      var person2= new person("Shashi", "Tharoor","Delhi");
+      console.log("First name is ",person2.FirstName,"Second name is",person2.LastName," and address is ", person2.OfficeAdress);
+
+
+    var Person3= new Object();
+    Person3.FirstName="Sushma";
+    Person3.LastName="Swaraj";
+    Person3.OfficeAdress="Delhi";
+    console.log("First name is ",Person3.FirstName,"Second name is",Person3.LastName," and address is ", Person3.OfficeAdress)
+ 
+
+
+</script>
+</html>
